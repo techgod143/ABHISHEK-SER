@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     if (!img) throw '*REPLY TO AN IMAGE.*'
     await conn.updateProfilePicture(m.chat, img).then(_ => m.reply('_Updated Group Profile Pic✅_'))
     } else throw '*REPLY TO AN IMAGE.*'}
-    handler.command = /^setpp(group|grup|gc)?$/i
+    handler.command = /^setppgc/i
     handler.group = true
     handler.admin = true
     handler.botAdmin = true

@@ -25,6 +25,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}*on/off* public_
 │ _${usedPrefix}*on/off* autoreact_
 │ _${usedPrefix}update_
+│ _${usedPrefix}sudo_
 │ _${usedPrefix}autoadmin_
 │ _${usedPrefix}left_
 │ _${usedPrefix}banchat_
@@ -39,7 +40,7 @@ let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}bcgc_
 │ _${usedPrefix}join_ 
 │ _${usedPrefix}restart_
-│ _${usedPrefix}setppbot_
+│ _${usedPrefix}setpp_
 │ _${usedPrefix}setprefix_
 │ _${usedPrefix}resetprefix_
 │ _${usedPrefix}resetuser_
@@ -58,7 +59,7 @@ ${readMore}
 │ _${usedPrefix}*on/off* antilink_
 │ _${usedPrefix}*on/off* antidelete_
 │ _${usedPrefix}invite_
-│ _${usedPrefix}setpp *image*_
+│ _${usedPrefix}setppgc *image*_
 │ _${usedPrefix}setname *text*_
 │ _${usedPrefix}setdesc *text*_
 │ _${usedPrefix}setwelcome *text*_
@@ -97,8 +98,8 @@ ${readMore}
 ╰─────────────⦁
 
 ╭───❮ *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙴𝙽𝚄* ❯
+│ _${usedPrefix}song_
 │ _${usedPrefix}play_
-│ _${usedPrefix}play2_
 │ _${usedPrefix}yts_
 │ _${usedPrefix}insta *link*_
 │ _${usedPrefix}img_

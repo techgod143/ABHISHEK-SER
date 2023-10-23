@@ -7,9 +7,9 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	let type = command.toLowerCase();
 	
 	switch (type) {
-	  case 'gfx1':
+	  case 'hacker':
 		if (!text) throw tee;
-		let chut = `https://oni-chan.my.id/api/canvas/kaneki?name=${encodeURIComponent(text)}&apikey=Y`;
+		let chut = `https://api.lolhuman.xyz/api/ephoto1/anonymhacker?apikey=${lolkeysapi}&text=${encodeURIComponent(text)}`;
 		conn.sendFile(m.chat, chut, 'logo.png', `✅ Result`, m);
 		m.react(done);
 		break;
@@ -98,9 +98,9 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	} 
   };
   
-  handler.help = ['gfx1', 'gfx2', 'gfx3', 'gfx4', 'gfx5', 'gfx6', 'gfx7', 'gfx8', 'gfx9', 'gfx10', 'gfx11', 'gfx12'];
+  handler.help = ['hacker', 'gfx12'];
   handler.tags = ['maker'];
-  handler.command = /^(gfx1|gfx2|gfx3|gfx4|gfx5|gfx6|gfx7|gfx8|gfx9|gfx10|gfx11|gfx12)$/i;
+  handler.command = /^(hacker|gfx2|gfx3|gfx4|gfx5|gfx6|gfx7|gfx8|gfx9|gfx10|gfx11|gfx12)$/i;
   handler.diamond = false;
   
   export default handler;

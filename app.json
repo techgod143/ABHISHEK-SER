@@ -1,12 +1,23 @@
 {
-  "name": "ABHISHEK-SER",
-  "description": "Customizable WhatsApp Bot",
+  "name": "Costomizable WhatsApp Bot",
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
   "repository": "https://github.com/AbhishekSuresh2/ABHISHEK-SER",
-  "logo": "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "ABHISHEK-SER", "GURU-bot-md", "GURU-bot"],
-  "buildpacks": [
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put Your SESSION_ID Here",
+      "required": true,
+      "value": ""
+    },
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
